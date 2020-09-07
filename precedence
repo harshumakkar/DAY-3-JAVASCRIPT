@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Multiplication has precedence over addition.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 100 + 50 * 3;
+</script>
+
+</body>
+</html>
